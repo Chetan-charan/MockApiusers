@@ -1,0 +1,69 @@
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+.usercontainer {
+    background-color: white;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 7px;
+    transition: all 0.2s;
+    height: 50%;
+    
+    
+}
+
+.Enter-user {
+    margin: 2rem;
+}
+
+img {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    
+}
+
+.user-name {
+    font-size: 1.4rem;
+    font-family: 'Pacifico', cursive;
+  
+}
+
+.usercontainer:hover{
+    transform: scale(1.04);
+}
+
+.usercontainer:hover .user-name{
+    color: crimson;
+}
+
+.edit-user-form {
+    display: none;
+}
+
+input {
+    border-radius: 3px;
+    line-height: 2rem;
+    
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    margin: 0.3rem;
+}
+
+#fellow_avatar {
+    width: 120%;
+}
+
+.add-user-avatar {
+    width: 20rem;
+}
